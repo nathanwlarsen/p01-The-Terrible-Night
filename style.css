@@ -1,0 +1,44 @@
+body {
+  background-image: url("background.jpg");
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  color: #B8B8B8;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+p {
+  float: left;
+  width: 75%;
+}
+
+header {
+    padding: 25px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
